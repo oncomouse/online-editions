@@ -1,0 +1,13 @@
+%section
+	%h1 Online Editions
+	
+	= partial "about"
+	
+%section
+	%h2 The Editions
+
+	%ul.editions
+		- sitemap.resources.each do |resource|
+			- if !(resource.destination_path =~ /(javascripts|stylesheets|images|fonts)\//) and !(resource.destination_path =~ /index.html/) and resource.data.has_key? "title"
+				%li
+					= link_to resource.data["title"], resource.destination_path
