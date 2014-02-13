@@ -1,3 +1,1 @@
-This site is a collection of web-enabled editions of literature made by students in [Andrew Pilsch's](http://andrew.pilsch.com) [Spring 2014 Section of ENG 242](http://andrew.pilsch.com/courses/eng242spr2014) at [Arizona State University](http://asu.edu) in [The School of Letters and Sciences](http://sls.asu.edu).
-
-Students were asked to produce an annotated edition of a text from their literary survey using the [Markdown](https://daringfireball.net/projects/markdown/) language.
+Put in information about your site, here.
